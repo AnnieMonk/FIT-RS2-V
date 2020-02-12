@@ -86,7 +86,7 @@ namespace eProdaja.WinUI.Proizvodi
 
             var jedMjereIdObj = cmbJedinicaMjere.SelectedValue;
 
-            if (int.TryParse(idObj.ToString(), out int jedMjereId))
+            if (int.TryParse(jedMjereIdObj.ToString(), out int jedMjereId))
             {
                 request.JedinicaMjereId = jedMjereId;
             }
